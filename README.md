@@ -46,11 +46,10 @@ func main() {
 ### Available Features
 
 - [x] Accounts
-- [X] Users
-- [X] Unit Testing
-- [X] Games
-- [X] Board
-- [X] User IDs
+- [ ] Users
+- [x] Unit Testing
+- [ ] Games
+- [ ] Board
 - [ ] Teams
 - [ ] Tournaments \
     Ideas For Tournament Main Code

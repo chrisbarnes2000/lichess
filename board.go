@@ -49,8 +49,8 @@ type BoardGameState struct {
 	Winner string `json:"winner"`
 }
 
-func (c *Client) GetBoardGameState(game_id string) (*[]BoardGameState, error) {
-	boardGameState := new([]BoardGameState)
+func (c *Client) GetBoardGameState(game_id string) (*BoardGameState, error) {
+	boardGameState := new(BoardGameState)
 	req, err := c.newRequest("GET", fmt.Sprintf("/api/board/game/stream/%s", game_id), nil)
 	if err != nil {
 		return nil, err
