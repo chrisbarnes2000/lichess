@@ -1,4 +1,12 @@
-## Golang Lichess Package [![Go Report Card](https://goreportcard.com/badge/github.com/github.com/lukemilby/lichess)](https://goreportcard.com/report/github.com/github.com/lukemilby/lichess)
+## Golang Lichess Package
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/chrisbarnes2000/lichess)](https://goreportcard.com/report/github.com/chrisbarnes2000/lichess)
+[![GitHub](https://img.shields.io/github/forks/ChrisBarnes2000/lichess.svg?style=flat-square)](https://github.com/ChrisBarnes2000/lichess/network)
+[![GitHub](https://img.shields.io/github/issues/ChrisBarnes2000/lichess.svg?style=flat-square)](https://github.com/ChrisBarnes2000/lichess/issues)
+
+<!-- [![NPM version](https://img.shields.io/npm/v/chris-barnes-lichess.svg?style=flat)](https://www.npmjs.com/package/chris-barnes-lichess) -->
+<!-- [![NPM downloads](https://img.shields.io/npm/dm/chris-barnes-lichess.svg?style=flat)](https://npmjs.org/package/chris-barnes-lichess) -->
+<!-- [![Build Status](https://img.shields.io/travis/ChrisBarnes2000/chris-barnes-lichess.svg?style=flat)](https://travis-ci.org/ChrisBarnes2000/chris-barnes-lichess) -->
 
 A Go implementation of [Lichess](https://lichess.org)'s [API](https://lichess.org/api)
 
@@ -9,7 +17,7 @@ package main
 
 import (
  "fmt"
- "github.com/lukemilby/lichess"
+ "github.com/chrisbarnes2000/lichess"
  "log"
  "net/http"
  "net/url"
@@ -44,7 +52,18 @@ func main() {
 - [X] Board
 - [X] User IDs
 - [ ] Teams
-- [ ] Tournaments
+- [ ] Tournaments \
+    Ideas For Tournament Main Code
+
+    Afetr setting things up for the Chess club at MakeSchool to compete and learn from eachother I have noticed these features are missing from the tournament sections of lichess.org and will be looking into how one mighth add these
+
+    1. Ability to Kick/Pause Members
+    2. Ability to Invite people you follow
+    3. Ability to Pick who you compete against
+    4. Ability to Change How Matches are paird up
+    5. Ability to Link to Twitter/Twitch/Discord/Slack Group Channel for voice/disscussion
+    6. Dispay Tournaments you've joined via quick button on mobile and desktop versions
+
 - [ ] Relations
 - [ ] Challenges
 - [ ] Chessbot
@@ -54,7 +73,7 @@ func main() {
 ## Getting Started
 
 - First, Create an API Token from [here](https://lichess.org/account/oauth/token/create)
-- Second, [fork this repo](https://github.com/lukemilby/lichess/fork),
+- Second, [fork this repo](https://github.com/chrisbarnes2000/lichess/fork),
 - Third, run these commands to clone it locally and get started
 
 ```zsh
