@@ -22,8 +22,14 @@
 - [X] Fetch User IDs
 - [X] Unit Testing
 
-## v1.0.4: [Merge]: Tournament api calls from [github.com/Christopher-MakeSchool/makeutility](github.com/Christopher-MakeSchool/makeutility)
+## v1.0.4: [Merge]: [PR 1 from @kravcneger](https://github.com/chrisbarnes2000/lichess/pull/1)
 
-<!-- ## v1.0.5:  -->
+## v1.0.5: Draft API Requirements/Features
 
-<!-- ## v1.0.6:  -->
+- [X] Update ChangeLog
+- [X] Update Readme
+- [ ] Polish Typos/Naming Conventions
+
+## v1.0.6: [Merge]: Tournament api calls from [github.com/Christopher-MakeSchool/makeutility](github.com/Christopher-MakeSchool/makeutility)
+
+<!-- ## v1.0.7:  -->

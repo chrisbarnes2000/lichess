@@ -35,7 +35,6 @@ func TestGetRLUsersStatus(t *testing.T) {
 			{"id":"peter","Name":"peter", "playing":false},
 			{"id":"alex","Name":"alex", "playing":true}]
 			`
-
 	mocks.GetDoFunc = func(*http.Request) (*http.Response, error) {
 		r := ioutil.NopCloser(bytes.NewReader([]byte(json)))
 		return &http.Response{
